@@ -5,9 +5,33 @@
   <meta charset="utf-8">
   <title>Analizador de texto</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
+  <header>
+    <h1>Analizador de texto</h1>
+  </header>
+  <ul>
+    <li class="li" data-testid="character-count">Caracteres: 0</li>
+    <li class="li" data-testid="character-no-spaces-count">Caracteres sin espacios: 0</li>
+    <li class="li" data-testid="word-count">Palabras: 0</li>
+    <li class="li" data-testid="word-length-average">Longitud media: 0</li>
+    <li class="li" data-testid="number-count">Números: 0</li>
+    <li class="li" data-testid="number-sum">Suma de números: 0</li>
+  </ul>
+  <div id="divText">
+    <textarea name="user-input" cols="44" rows="10"></textarea>
+    <br>
+    <button id="reset-button">Limpiar</button>
+  </div>
+  <footer>
+    <p>Hecho por: Flor Hernández</p>
+  </footer>
   <script src="index.js" type="module"></script>
 </body>
+
 </html>
