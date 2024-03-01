@@ -1,7 +1,9 @@
 # Analizador de texto
 
 En esta aplicación el usuario puede ingresar un texto y automáticamente se actualizarán las métricas. 
-De esta forma se podrán obtener datos útiles, los cuales se detallan a continuación.
+De esta forma se podrán obtener datos útiles, los cuales se detallan más abajo.
+
+**Enlace a la aplicación:** https://florsalvador.github.io/text-analyzer/src/
 
 ## Cómo funcionan las métricas
 
